@@ -1,0 +1,86 @@
+body {
+	background: #146356
+}
+
+.conteudo {
+	height: 100vh;
+	display: flex;
+	justify-content:space-around;
+	align-items: center;
+	align-content: space-between;
+	border: yellow solid 1px;
+}
+.conteudo-apresentacao {
+	color: white;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	/* border: solid 1px red; */
+	width: 400px;
+
+}
+
+#conteiner-login {
+	width: 300px;
+	height: 400px;
+	background: #A3DA8D;
+	border-radius: 8px;
+	box-shadow: 0 0 5px black;
+}
+
+
+/* form {
+	margin-top: 20px;
+} */
+
+#entradas {
+	height: 70px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+h2 {
+	color: white;
+}
+
+h3 {
+	color: white;
+}
+
+.button-disable {
+	display: block;
+	margin: auto;
+	margin-top: 40px;
+	background-color: #0e107154;
+	color: rgba(255, 255, 255, 0.418);
+	font-weight: 700;
+	width: 120px;
+	height: 30px;
+	border-radius: 20px;
+}
+
+.button-active {
+	display: block;
+	margin: auto;
+	margin-top: 40px;
+	background-color: #0E1071;
+	color: white;
+	font-weight: 700;
+	width: 120px;
+	height: 30px;
+	border-radius: 20px;
+	border: none;
+}
+
+.button-active:hover {
+	width: 125px;
+	height: 35px;
+	box-shadow: 0 0 5px black;
+}
+/*  */
+.button-active:active {
+	background-color: chartreuse;
+}
+
+
