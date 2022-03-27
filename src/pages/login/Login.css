@@ -26,12 +26,15 @@ body {
 	background: #A3DA8D;
 	border-radius: 8px;
 	box-shadow: 0 0 5px black;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
 }
 
 
-/* form {
+form {
 	margin-top: 20px;
-} */
+}
 
 #entradas {
 	height: 70px;
@@ -40,13 +43,6 @@ body {
 	justify-content: space-between;
 }
 
-h2 {
-	color: white;
-}
-
-h3 {
-	color: white;
-}
 
 .button-disable {
 	display: block;

@@ -46,7 +46,7 @@ function Login() {
         Adicione, remoca, marque suas tarefas.</p>
       </div>
     <div id="conteiner-login">
-      <div id="conteudo">
+      {/* <div id="conteudo-login"> */}
         <h3>Faça seu Login</h3>
         <form onSubmit={(e) => handleSubmit(e)}>
          <div id="entradas">
@@ -80,7 +80,7 @@ function Login() {
 
 					>Entrar</button>
         </form>
-      </div>
+      {/* </div> */}
     </div>
     </div>
    
